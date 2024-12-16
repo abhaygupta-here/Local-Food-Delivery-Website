@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:  #ffeae0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:  #ffeae0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffeae0;
+    
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.cta-section {
+    background-color:#543a14;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.cta-section h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.cta-section p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.nav{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 0;
+   
+}
+.nav .logo{
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(250, 147, 20);
+    font-size: 52px;
+    
+    
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.search-container {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  /* Style for the input field */
+  .search-input {
+    width: 250px; /* Width of the input field */
+    padding: 10px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border-radius: 23px; /* Rounded corners */
+    border:none; /* Border color */
+  }
+
+  /* Style for the search button */
+  .search-button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button text */
+    background-color: #ff511c; /* Green background */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 23px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+  /* Change the button color on hover */
+  .search-button:hover {
+    background-color:rgb(250, 147, 20);; /* Darker green */
+  }

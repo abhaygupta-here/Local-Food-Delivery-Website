@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us - Food Delivery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:  #ffeae0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: solid 3px;
+            border-radius: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #218838;
+        }
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .info-section div {
+            width: 45%;
+        }
+        .info-section h3 {
+            color: #333;
+        }
+        .nav{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 0;
+    
+   
+}
+.nav .logo{
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(250, 147, 20);
+    font-size: 52px;
+    
+    
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.search-container {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  /* Style for the input field */
+  .search-input {
+    width: 250px; /* Width of the input field */
+    padding: 10px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border-radius: 23px; /* Rounded corners */
+    border:none; /* Border color */
+  }
+
+  /* Style for the search button */
+  .search-button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button text */
+    background-color: #ff511c; /* Green background */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 23px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+  /* Change the button color on hover */
+  .search-button:hover {
+    background-color:rgb(250, 147, 20);; /* Darker green */
+  }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">MASHUR</div>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#grid-container">Menu</a></li>
+           
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+        </ul>
+        <!-- <div>
+            <input class="login" type="submit" value="Log in" name="login">
+            <input class="signup" type="submit" value="Sign Up" name="signup">
+        </div> -->
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder=" search food..." id="searchInput">
+            <button class="search-button" onclick="search()">Search</button>
+          </div>
+    </div>
+
+
+<div class="container">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info-section">
+        <div>
+            <h3>Our Address</h3>
+            <p>123 Food Street, Delivery City, Country</p>
+        </div>
+        <div>
+            <h3>Customer Service</h3>
+            <p>Call us: 1-800-123-4567</p>
+            <p>Email us: support@fooddelivery.com</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
